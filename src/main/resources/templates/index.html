@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery-3.7.0.min.js"></script>
+<body>
+
+<div class="container">
+    <h2>채팅방 시작</h2>
+    <form action="/chat" method="get" class="form-control" style="width: 500px">
+        <input type="text" class="form-control" name="nick" placeholder="닉네임을 입력해주세요!">
+        <input type="submit" class="btn btn-primary mt-5" value="시작하기">
+    </form>
+</div>
+
+</body>
+</html>
